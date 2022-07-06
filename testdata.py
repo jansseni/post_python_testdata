@@ -12,7 +12,7 @@ for num in range(200):
         'Telefon': fake.phone_number(),
         'Strasse': fake.street_address(),
         'Postleitzahl': fake.postcode(),
-        'Stadt': fake.building_number(),
+        'Stadt': fake.city(),
         'Bank': fake.iban(),
         'Eintritt': fake.date_between().strftime('%d.%m.%Y')
     })
